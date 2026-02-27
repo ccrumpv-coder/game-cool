@@ -1,0 +1,124 @@
+"""Game constants and configuration."""
+
+# Display
+SCREEN_WIDTH = 1024
+SCREEN_HEIGHT = 768
+FPS = 60
+TITLE = "Realms of Mythos"
+
+# Tile system
+TILE_SIZE = 32
+MAP_WIDTH = 40
+MAP_HEIGHT = 30
+
+# Colors
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (200, 50, 50)
+GREEN = (50, 200, 50)
+BLUE = (50, 80, 200)
+YELLOW = (230, 200, 50)
+ORANGE = (230, 140, 30)
+PURPLE = (150, 50, 200)
+CYAN = (50, 200, 220)
+DARK_GRAY = (40, 40, 50)
+GRAY = (100, 100, 110)
+LIGHT_GRAY = (170, 170, 180)
+BROWN = (139, 90, 43)
+DARK_GREEN = (30, 100, 30)
+DARK_BLUE = (20, 30, 80)
+GOLD = (255, 215, 0)
+DARK_RED = (120, 20, 20)
+LIGHT_GREEN = (100, 255, 100)
+DARK_BROWN = (80, 50, 20)
+SAND = (210, 180, 120)
+WATER_BLUE = (40, 80, 180)
+LAVA_RED = (200, 60, 20)
+ICE_BLUE = (180, 220, 255)
+
+# UI
+UI_BG = (20, 15, 30)
+UI_BORDER = (80, 70, 100)
+UI_HIGHLIGHT = (100, 80, 150)
+UI_TEXT = (220, 210, 230)
+UI_ACCENT = (180, 140, 255)
+HP_BAR_COLOR = (200, 40, 40)
+MP_BAR_COLOR = (40, 80, 220)
+XP_BAR_COLOR = (200, 180, 40)
+TOOLTIP_BG = (30, 25, 45, 220)
+
+# Game states
+STATE_MAIN_MENU = "main_menu"
+STATE_CHARACTER_CREATE = "character_create"
+STATE_EXPLORE = "explore"
+STATE_COMBAT = "combat"
+STATE_INVENTORY = "inventory"
+STATE_DIALOGUE = "dialogue"
+STATE_QUEST_LOG = "quest_log"
+STATE_GAME_OVER = "game_over"
+STATE_LEVEL_UP = "level_up"
+STATE_SHOP = "shop"
+STATE_PAUSE = "pause"
+
+# Character classes
+CLASS_WARRIOR = "Warrior"
+CLASS_MAGE = "Mage"
+CLASS_ROGUE = "Rogue"
+CLASS_RANGER = "Ranger"
+CLASS_PALADIN = "Paladin"
+
+# Element types
+ELEM_PHYSICAL = "Physical"
+ELEM_FIRE = "Fire"
+ELEM_ICE = "Ice"
+ELEM_LIGHTNING = "Lightning"
+ELEM_HOLY = "Holy"
+ELEM_DARK = "Dark"
+ELEM_POISON = "Poison"
+
+# Equipment slots
+SLOT_WEAPON = "Weapon"
+SLOT_ARMOR = "Armor"
+SLOT_HELMET = "Helmet"
+SLOT_BOOTS = "Boots"
+SLOT_ACCESSORY = "Accessory"
+
+# Item rarities
+RARITY_COMMON = "Common"
+RARITY_UNCOMMON = "Uncommon"
+RARITY_RARE = "Rare"
+RARITY_EPIC = "Epic"
+RARITY_LEGENDARY = "Legendary"
+
+RARITY_COLORS = {
+    RARITY_COMMON: LIGHT_GRAY,
+    RARITY_UNCOMMON: GREEN,
+    RARITY_RARE: BLUE,
+    RARITY_EPIC: PURPLE,
+    RARITY_LEGENDARY: GOLD,
+}
+
+# Directions
+DIR_UP = (0, -1)
+DIR_DOWN = (0, 1)
+DIR_LEFT = (-1, 0)
+DIR_RIGHT = (1, 0)
+
+# Animation
+ANIM_SPEED = 0.15
+PLAYER_SPEED = 3
+CAMERA_LERP = 0.1
+
+# Combat
+COMBAT_TURN_DELAY = 500  # ms between turns
+DAMAGE_FLASH_DURATION = 200
+SHAKE_DURATION = 300
+SHAKE_INTENSITY = 5
+
+# XP curve
+BASE_XP_REQUIREMENT = 100
+XP_GROWTH_FACTOR = 1.5
+MAX_LEVEL = 50
+
+# Particle system
+MAX_PARTICLES = 200
